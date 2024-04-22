@@ -19,3 +19,11 @@ pyradiomics
 ```
 
 ## Cite
+
+```
+@inproceedings{min2024feature,
+  title={Feature Imitating Networks Enhance the performance, Reliability and Speed of Deep Learning on Biomedical Image Processing Tasks},
+  author={Min, Shangyang and Ebadian, Hassan B. and Alhanai, Tuka and Ghassemi, Mohammad M.},
+  booktitle={Proceedings of the 46th Annual International Conference of the
+
+```
