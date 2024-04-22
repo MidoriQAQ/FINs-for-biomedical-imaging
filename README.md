@@ -10,12 +10,12 @@ Feature-Imitating-Networks (FINs) are specialized neural networks that first lea
 
 ## Overview of Repostiory Contents
 
-* Tutorial.ipynb:
-* radiomics_training.ipynb:
-* random_topology.ipynb:
+* Tutorial.ipynb: Tutorial notebook demonstrating the setup, training, and application of FINs
+* radiomics_training.ipynb: Contains code for training radiomics models. 
+* random_topology.ipynb: Utility notebook to generate random topologies.
 * Exps/
-    * BrainMRIDectection.ipynb:
-    * Covid.ipynb:   
+    * BrainMRIDectection.ipynb: Experiment code detects medical conditions from brain MRI scans.
+    * Covid.ipynb: Experiment code detects COVID-19 from imaging data.
 
 ## Python Package Requirements
 
@@ -30,12 +30,18 @@ sklearn
 pyradiomics
 ```
 
+### Dataset
+```
+Dataset used are public available and can be download from [Kaggle](https://www.kaggle.com/datasets/mehradaria/covid19-lung-ct-scans/data), [TCIA](https://www.cancerimagingarchive.net/collection/tcga-lgg/)
+```
+
 ## Cite
 
 ```
 @inproceedings{min2024feature,
   title={Feature Imitating Networks Enhance the performance, Reliability and Speed of Deep Learning on Biomedical Image Processing Tasks},
   author={Min, Shangyang and Ebadian, Hassan B. and Alhanai, Tuka and Ghassemi, Mohammad M.},
-  booktitle={Proceedings of the 46th Annual International Conference of the
+  booktitle={Proceedings of the 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society}
+}
 
 ```
